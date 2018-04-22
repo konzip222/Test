@@ -10,6 +10,15 @@ $(document).ready(function() {
   $(".hidden").hide();
   $("a").attr("href", "http://www.jquery.com");
   var val = $("a").attr("href");
-  alert($("#name").val());
-  alert(val);
+  //alert($("#name").val());
+  //alert(val);
+    let txt = "";
+  txt += "width: " + $("div").width() + " ";
+  txt += "height: " + $("div").height() + "<br/>";
+  txt += "innerWidth: " + $("div").innerWidth() + "  ";
+  txt += "innerHeight: " + $("div").innerHeight() + "<br/>";
+  txt += "outerWidth: " + $("div").outerWidth() + "  ";
+  txt += "outerHeight: " + $("div").outerHeight();
+    
+  $(".newShit").html(txt);
 });

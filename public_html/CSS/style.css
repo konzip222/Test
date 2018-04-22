@@ -8,3 +8,21 @@ and open the template in the editor.
     Author     : Jakub
 */
 
+body{
+    background-color: #EEEEEE;
+}
+
+#test{
+    font-size: 20px;
+    background-color: #DDDDDD;
+}
+
+.newShit{
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  margin: 20px;
+  border: 3px solid blue;
+  background-color: red;
+  color: white;
+}
