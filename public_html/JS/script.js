@@ -7,4 +7,5 @@
 
 $(document).ready(function() {
   $("#start").html("Go!");
+  $(".hidden").hide();
 });
