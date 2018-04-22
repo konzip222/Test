@@ -8,4 +8,6 @@
 $(document).ready(function() {
   $("#start").html("Go!");
   $(".hidden").hide();
+  var val = $("a").attr("href");
+  alert(val);
 });
